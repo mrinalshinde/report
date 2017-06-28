@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  28 JUN 2017 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  28 JUN 2017 14:28
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -489,25 +489,12 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip59
 \subfig@bottom=\skip60
 )
-(Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux
-
-LaTeX Warning: Label `Introduction' multiply defined.
-
-
-LaTeX Warning: Label `This is a sub section' multiply defined.
-
-) (chapter3.aux
-
-LaTeX Warning: Label `This is a sub section' multiply defined.
-
-) (chapter4.aux
+(Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux
 
 LaTeX Warning: Label `This is a sub section' multiply defined.
 
 ) (chapter5.aux
-
-LaTeX Warning: Label `Conclusion' multiply defined.
-
 
 LaTeX Warning: Label `This is a sub section' multiply defined.
 
@@ -713,34 +700,66 @@ Chapter 2.
 
 
 
-]) [5]
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no œ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no  in font cmr12!
+ [5]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+ [6]) [7]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-[6
+[8
 
 
 
-] [7]) [8]
+] [9]) [10]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
-) [9
-
-
-
-] [10]
-\openout2 = `chapter5.aux'.
-
- (chapter5.tex
-Chapter 5.
 ) [11
 
 
 
 ] [12]
+\openout2 = `chapter5.aux'.
+
+ (chapter5.tex
+Chapter 5.
+) [13
+
+
+
+] [14]
 \openout2 = `bibliography.aux'.
 
  (bibliography.tex
@@ -749,27 +768,27 @@ Overfull \hbox (12.09259pt too wide) in paragraph at lines 5--6
 or+Doppler+Ultrasound 
  []
 
-[13
+[15
 
 
 
-]) [14]
+]) [16]
 \openout2 = `Appendix.aux'.
 
- (Appendix.tex [15
+ (Appendix.tex [17
 
 
 
 
 ]
 Appendix A.
-[16
-
-] [17]
-Appendix B.
 [18
 
-]) [19] 
+] [19]
+Appendix B.
+[20
+
+]) [21] 
 AED: lastpage setting LastPage
 (Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (chapter4.aux) (chapter5.aux) (bibliography.aux) (Appendix.aux))
@@ -779,8 +798,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  14303 strings out of 493323
- 274913 string characters out of 3139069
- 423889 words of memory out of 3000000
+ 274966 string characters out of 3139069
+ 423901 words of memory out of 3000000
  17501 multiletter control sequences out of 15000+200000
  11180 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -790,9 +809,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (28 pages, 175578 bytes).
+Output written on Main_file.pdf (30 pages, 181498 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

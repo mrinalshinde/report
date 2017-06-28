@@ -1,16 +1,51 @@
 %DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
 \chapter{Literature Review} \label{Literature Review}
-\section{Introduction} \label{Introduction}
-Hey you!! Trying if the header and footer works for the second chapter
-\subsection{This is a sub section} \label{This is a sub section}
-Yes, true, It is indeed a subsection.
+\section{Full Body Gait Analysis with Kinect} \label{Full Body Gait Analysis with Kinect}
+\noindent 1. Authors:
+\noindent Moshe Gabel, Ran Gilad-Bachrach, Erin Renshaw and Assaf Schuster
 
-will be trying now to continue this chapter to the next page to see if the header and footer appear there on the second page too.
+\noindent 2. Abstract:
+\noindent Human gait is an important indicator of health, with applications ranging from diagnosis, monitoring, and rehabilitation. In practice, the use of gait analysis has been limited. Existing gait analysis systems are either expensive, intrusive, or require well-controlled environments such as a clinic or a laboratory.
+We present an accurate gait analysis system that is economical and non-intrusive. Our system is based on the Kinect sensor and thus can extract comprehensive gait information from all parts of the body. Beyond standard stride information, we also measure arm kinematics, demonstrating the wide range of parameters that can be extracted. We further improve over existing work by using information from the entire body to more accurately measure stride intervals. Our system requires no markers or battery-powered sensors, and instead relies on a single, inexpensive commodity 3D sensor with a large preexisting install base. We suggest that the proposed technique can be used for continuous gait tracking at home.
+
+\noindent 3. Hardware used :
+\noindent Microsoft’s Kinect Xbox 360 console.
+
+\noindent 4. Methodology :
+\noindent Our technique uses a “virtual skeleton” produced by the Kinect sensor and software. The skeleton information is converted into a large set of features which are fed to a model that predicts the values of interest. For example, inorder to measure stride duration, the model detects whether the foot is touching the ground. The outcome of this model is fed to a state machine that detects the current state from which the measurements are derived.
+
+\noindent 5. Conclusion
+\noindent In this work we have presented a novel method for full body gait analysis using the Kinect sensor. Using the virtual skeleton as the input to a learned model, we demonstrated accurate and robust measurements of a rich set of gait features. We showed that our method improves on prior art both in terms of having smaller bias and in having smaller variance. Moreover, our method can be extended to measuring other properties, including lower limb angular velocities and core posture. The sensor used is affordable and small, thus allowing installation in domestic environments. Since the sensor does not require maintenance, it allows for continuous and long term tracking of gait and its trends. These properties enable many applications for diagnosis, monitoring and adjustments of treatment. However measuring the utility of the methods presented here for medical applications is a subject for further research.
 \newpage
-Hey this is supposed to be the next page. See if header and footer are there.
 
-{\bfseries Please feel free to add intermediate sections according to your project requirement.}
-\section{Conclusion} \label{Conclusion}
-Trying if the header and footer works for the second chapter
-\subsection{This is a sub section} \label{This is a sub section}
-Yes, true, It is indeed a subsection.
+\section{Motion Analysis using Kinect sensor} \label{Motion Analysis using Kinect sensor}
+
+\noindent 1. Authors:
+\noindent Richa D’Costa, Manpreet Kaur, Nishtha D. Wanchoo. Under the guidance of PROF. MILIND FERNANDES, Asst. Professor at Goa College of Engineering
+
+\noindent 2. Abstract:
+\noindent With the advent of Microsoft Kinect sensor, a flexible low cost tool has been made available that enables marker less tracking of human motion in real time. The study explores the possibility of utilizing Microsoft’s Kinect sensor to analyse the biomechanics of the shot put throw. It presents a software prototype capable of capturing, recording, analyzing and comparing movement patterns using three-dimensional vector angles. The goal of the present work is to ease the analysis of a shot put game for overcoming the difficulty of visual error detection in shotput game using a software prototype which compares an amateur’s game to that of a professional to yield results, which is implemented by using the Kinect sensor. It combines both the biomechanics analysis and Kinect motion capturing and develops a shot put game improvement solution with coaching evaluation.
+
+\noindent 3. Tools used :
+\noindent Microsoft Kinectv2 sensor, Visual studio 2013, Excel 2013
+
+\noindent 4. Methodology :
+\noindent Shotput is a game involving many complex motions simultaneously which includes rotational, translational and lateral motions. For any beginner, it gets very difficult to detect the stage of the throw which needs an improvement. Existing methods involve a coach trying to evaluate the stage of flaw in the game by observation. This has 2 major drawbacks: 1)The presence of a skilled trainer is inevitable for every throw of the beginners practice session. 2)The accuracy level would be lower than desired, since the correction of flaw in the game is manual method. To overcome the above difficulties ,we have developed a software prototype for which could detect the flaw in the beginners game without constant physical presence for the busy trainer.
+Our prototype software takes care of mainly 3 important parameters in the game:
+1. The time duration at each phase:
+It must be well within the range of our reference  for maximum release velocity.
+2. The following angles at the start of the initial phase:
+• Right knee
+• Left Knee
+• Right hip
+• Right elbow
+If these angles are well within our reference angles, it results in higher build up energy to
+have an increased release velocity
+3. The release angle of the player:
+When release angle is within the range of 38-42, maximum range is attained.
+
+\noindent 5. Conclusion :
+\noindent The Kinect system being a marker-less system, is able to capture the human motion with a reduction in time, whereas in a marker-based system attaching markers on the skin of the subject is a time consuming process (which can take 15 to 20 minutes). Although our software prototype could be used in a shot put game to provide coaching
+evaluation, the results cannot be completely relied upon, as the accuracy was limited due to decreased resolution of Kinect sensor. A few drawbacks of this sensing technology were the fixed location of the sensor with a range of capture of only roughly ten meters, a difficulty in fine movement capture, and shoulder joint biomechanical accuracy. The better reliable results refer to the hip flexion and knee angles and the results of hip adduction and ankle angles are not accurate enough to be relied on. This suggests that Kinect is better for capturing the rotation pattern of the joints with a large range of motion. In conclusion, Kinect system is a reliable system which permits to obtain acceptable kinematics results.
+
+
