@@ -1,49 +1,16 @@
 %DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
 \chapter{Introduction} \label{Introduction}
 \section{Preamble} \label{Preamble}
-\noindent1st para of first section\\
-\noindent second para\\
+\noindent Compared to other biometric features such as the iris and fingerprint. Gait has some inherent advantages
+1) Perceivable at a distance, on-contact, non-invasive
+2) Doesn’t require user cooperation
+3) Gives fairly accurate readings under low light conditions.
+Also disguising, hiding one’s gait or imitating some other person’s gait is practically impossible. As a result it has fascinated several security-sensitive environments such as classified research and nuclear labs, military, banks etc. Gait recognition is particularly useful in crime scenes where other biometric traits (such as face or fingerprint) might be obscured intentionally.
+
+\noindent Two common categories of gait recognition are appearance-based and model-based approaches. Among the two, the appearance-based approaches suffer from changes in the appearance owing to the change of the viewing or walking directions. Model based ones are view and scale invariant and reflect in the kinematic characteristics of walking manner.
+In this study we present a model based approach using the Microsoft Kinect sensor which offers us a 3D model of the human skeleton with capability to track up to 25 joints of the human body.
 \section{Motivation}\label{Motivation}
-\noindent This is how you create bullets:\\
-\vspace{-1cm}
-\begin{itemize}
-\item First bullet
-\item second bullet
-\end{itemize}
+\noindent The initial motivation to build a gait recognition system developed after watching the Gait Analysis scene in the movie Mission Impossible – Rogue Nation (2015) where it was used for authentication for security purposes. Although at that time it felt as a futuristic technology, through research we realised that existing gait recognition approaches mostly use standard video cameras for capturing and recording the movement of walking persons. Here, the main difficulty lies in the extraction of characteristic features that can be used for identification. The challenges of existing gait recognition system and the possibilities Kinect offers lead to the assumption that the problem of gait recognition could be simplified using the Kinect sensor.
+
 \section{Objective} \label{Objective}
-\noindent same way
-\section{Outline} \label{Outline}
-\subsection{This is a sub section} \label{This is a sub section}
-\noindent Mention some figure like this Fig.1.1. which is saved at the location where this file is saved. This is an example of subfigure.
-You do not need to number the figure, latex will automatically number it for you! And it will appear automatically in the list of figures too!All you need to do is caption it.
-\begin{figure}[H]
-\subfigure[Source moving to stationary detector d]{\label{fig:a}\includegraphics{Fig1_1a.jpg}}
-\subfigure[Source moving from stationary detector d]{\label{fig:b}\includegraphics{Fig1_1b.jpg}}
-\caption{Principles of Doppler Ultrasound}
-\end{figure}
-\noindent This is how you write equations and mathematical symbols:\\
-\noindent In the Fig.1.1(a), an ultrasound source is moving with velocity $v_s$ toward the detector. After time $t$ following the production of any particular wave front, the distance between the wave front and the source is $(c$ - $v_s ) t$ , where $c$ is the velocity of ultrasound in the medium. The wavelength $\lambda$ of the ultrasound in the direction of motion is shortened to
-\begin{equation}
-\lambda = \frac{(c - v_s )}{\nu_0}
-\end{equation}
-\subsubsection{This  is a subsubsection} \label{This  is a subsubsection}
-\noindent This is how you enter a single figure.Entering the caption automatically gives the figure its number, and the caption appears in the list of figures
-\begin{figure}[H]
-{\centering \resizebox*{4.8in}{2.8in}{\includegraphics{Fig1_3.jpg}}\par}
-\caption{The Continuous Wave Doppler system. Signals from the receiving transducers are compared in frequency to those transmitted.}
-\end{figure}
-\noindent This is an example of a table. You need to write the caption so that it appears here with its table no. as well as in the List of Tables.
-\begin{table}[!ht]
-\centering
-\begin{tabular}{||c|c||}
-\hline\hline
-column1 & column2\\
-\hline\hline
-1st row 1st column & 1st row second column\\
-\hline
-2nd row 1st column & 2nd row 2nd column\\
-\hline\hline
-  \end{tabular}
-  \caption{A test table.}
-\end{table}
-\pagebreak
+\noindent In this paper we propose a skeleton model based approach (provided by Microsoft Kinect Sensor) for gait recognition and person identification. Our system consists of three components: The first component records the skeletal data offered by Kinect using the SDK provided by Microsoft. The second component processes on this data using MATLAB for feature extraction. Finally we use different classification algorithms available in MATLAB Classification Toolbox to identify a person using previously recorded training data and compare their performance and accuracy. This is a prototypic implementation of a gait recognition system, where we evaluate the possibilities of gait recognition using the Microsoft Kinect.

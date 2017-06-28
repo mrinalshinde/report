@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  28 JUN 2017 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  28 JUN 2017 11:45
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -684,18 +684,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  (chapter1.tex
 Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -706,25 +703,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-] <Fig1_1a.jpg, id=43, 209.28188pt x 160.34906pt>
-File: Fig1_1a.jpg Graphic file (type jpg)
- <use Fig1_1a.jpg>
-Package pdftex.def Info: Fig1_1a.jpg used on input line 20.
-(pdftex.def)             Requested size: 209.28134pt x 160.34866pt.
-
-<Fig1_1b.jpg, id=44, 207.02344pt x 160.34906pt>
-File: Fig1_1b.jpg Graphic file (type jpg)
- <use Fig1_1b.jpg>
-Package pdftex.def Info: Fig1_1b.jpg used on input line 21.
-(pdftex.def)             Requested size: 207.02292pt x 160.34866pt.
- [2 <./Fig1_1a.jpg> <./Fig1_1b.jpg>] <Fig1_3.jpg, id=51, 430.60875pt x 289.08pt
->
-File: Fig1_3.jpg Graphic file (type jpg)
-
-<use Fig1_3.jpg>
-Package pdftex.def Info: Fig1_3.jpg used on input line 32.
-(pdftex.def)             Requested size: 430.60768pt x 289.07928pt.
-) [3 <./Fig1_3.jpg>]
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+) [2] [3]
 \openout2 = `chapter2.aux'.
 
  (chapter2.tex
@@ -798,25 +781,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14341 strings out of 493323
- 275491 string characters out of 3139069
- 423959 words of memory out of 3000000
- 17533 multiletter control sequences out of 15000+200000
+ 14308 strings out of 493323
+ 274968 string characters out of 3139069
+ 423963 words of memory out of 3000000
+ 17506 multiletter control sequences out of 15000+200000
  11180 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,992b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,54p,992b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (28 pages, 313330 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Main_file.pdf (28 pages, 175854 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
