@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  29 JUN 2017 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  29 JUN 2017 14:11
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -717,6 +717,9 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -727,31 +730,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
- <Figprocessflow.png, id=45, 764.8575pt x 427.5975pt>
+] <Figprocessflow.png, id=45, 764.8575pt x 427.5975pt>
 File: Figprocessflow.png Graphic file (type png)
 
 <use Figprocessflow.png>
-Package pdftex.def Info: Figprocessflow.png used on input line 19.
+Package pdftex.def Info: Figprocessflow.png used on input line 20.
 (pdftex.def)             Requested size: 497.15147pt x 277.93507pt.
 
-Overfull \hbox (27.68098pt too wide) in paragraph at lines 19--20
+Overfull \hbox (27.68098pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
-[2]) [3 <./Figprocessflow.png>]
+) [2 <./Figprocessflow.png>]
 \openout2 = `chapter2.aux'.
 
  (chapter2.tex
 Chapter 2.
-[4
-
-
-
-]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -761,7 +755,11 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [5]
+[3
+
+
+
+] [4]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -783,34 +781,34 @@ Missing character: There is no ¢ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¢ in font cmr12!
- [6]) [7]
+) [5]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-[8
+[6
 
 
 
-] [9]) [10]
+]) [7]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
-) [11
+) [8
 
 
 
-] [12]
+]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex
 Chapter 5.
-) [13
+) [9
 
 
 
-] [14]
+]
 \openout2 = `bibliography.aux'.
 
  (bibliography.tex
@@ -819,27 +817,27 @@ Overfull \hbox (12.09259pt too wide) in paragraph at lines 5--6
 or+Doppler+Ultrasound 
  []
 
-[15
+[10
 
 
 
-]) [16]
+]) [11]
 \openout2 = `Appendix.aux'.
 
- (Appendix.tex [17
+ (Appendix.tex [12
 
 
 
 
 ]
 Appendix A.
-[18
+[13
 
-] [19]
+] [14]
 Appendix B.
-[20
+[15
 
-]) [21] 
+]) [16] 
 AED: lastpage setting LastPage
 (Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (chapter4.aux) (chapter5.aux) (bibliography.aux) (Appendix.aux))
@@ -850,19 +848,19 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  14311 strings out of 493323
  276905 string characters out of 3139069
- 423901 words of memory out of 3000000
+ 424890 words of memory out of 3000000
  17507 multiletter control sequences out of 15000+200000
  11539 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,992b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,54p,1021b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (31 pages, 196725 bytes).
+Output written on Main_file.pdf (26 pages, 188273 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

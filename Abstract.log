@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  29 JUN 2017 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  29 JUN 2017 14:11
 entering extended mode
 **./Abstract.tex
 (Abstract.tex
@@ -52,6 +52,16 @@ Overfull \hbox (44.00113pt too wide) in paragraph at lines 4--6
  \OT1/cmr/bx/n/10 Abstract 
  []
 
+! Undefined control sequence.
+l.8 \noindent \setstretch
+                         {1} In recent years, biometric recognition and auth...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -860,9 +870,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
 )
 ! Emergency stop.
 <*> ./Abstract.tex
@@ -877,5 +884,5 @@ Here is how much of TeX's memory you used:
  3649 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 12i,1n,9p,977b,103s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 12i,1n,9p,987b,103s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
