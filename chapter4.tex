@@ -34,7 +34,7 @@ We would briefly like to discuss the classification algorithms we have used in o
 \end{figure}
 
 
-\section{Pros and Cons associated with k-NN} \label{Pros and Cons associated with k-NN}
+\subsection{Pros and Cons associated with k-NN} \label{Pros and Cons associated with k-NN}
 \noindent The advantages of k-NN are that it is simple to implement. It can quickly respond to changes in input. k-NN employs lazy learning, which generalizes during testing, this allows it to change during real time use. It naturally handles multi-class cases and can do well in practice with enough representative data. 
 
 \noindent Disadvantages of this method is its computation time. Lazy learning requires that most of k-NN's computation be done during testing, rather than during training. This can be an issue for large datasets. Large search problem to find nearest neighbours is another con. Storage of data and in the case of many dimensions, inputs can commonly be "close" to many data points. This reduces the effectiveness of k-NN, since the algorithm relies on a correlation between closeness and similarity.
@@ -50,3 +50,9 @@ We would briefly like to discuss the classification algorithms we have used in o
 \caption{Decision tree diagram}
 \end{figure}
 
+\subsection{Pros and Cons associated with Decision tree} \label{Pros and Cons associated with Decision tree}
+
+The advantages are that they are very fast to build and test. Building algorithms that work on highly non-linear data. In some use cases, visualizing the tree might be important. This can't be done in complex algorithms addressing non-linear needs.
+Make minimal assumptions. Nonlinear relationships between parameters do not affect tree performance.
+
+The disadvantages are it is not stable, even a small change in input data can at times, cause large changes in the tree. Changing variables, excluding duplication information, or altering the sequence midway can lead to major changes and might possibly require redrawing the tree. Decision Trees do not work well if you have smooth boundaries.  i.e they work best when you have discontinuous piece wise constant model. If you truly have a linear target function decision trees are not the best. They do not work best if you have a lot of un-correlated variables and a tree with many levels and branches can lead to an over optimized result, or many false positives due to multiple comparison.

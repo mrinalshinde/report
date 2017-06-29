@@ -12,13 +12,14 @@
 \contentsline {section}{\numberline {4.1} Support Vector Machine (SVM)}{12}
 \contentsline {subsection}{\numberline {4.1.1}Pros and Cons associated with SVM}{13}
 \contentsline {section}{\numberline {4.2}k-Nearest Neighbors algorithm (k-NN)}{13}
-\contentsline {section}{\numberline {4.3}Pros and Cons associated with k-NN}{14}
-\contentsline {section}{\numberline {4.4}Decision tree learning}{14}
-\contentsline {chapter}{\numberline {5}Conclusion}{16}
-\contentsline {section}{\numberline {5.1}General Conclusion}{16}
-\contentsline {subsection}{\numberline {5.1.1}This is a sub section}{16}
-\contentsline {section}{\numberline {5.2}Challenges}{16}
-\contentsline {section}{\numberline {5.3}Future Work}{16}
-\contentsline {chapter}{Appendices}{19}
-\contentsline {chapter}{\numberline {A}Appendix}{20}
-\contentsline {chapter}{\numberline {B}Data Sheets}{22}
+\contentsline {subsection}{\numberline {4.2.1}Pros and Cons associated with k-NN}{14}
+\contentsline {section}{\numberline {4.3}Decision tree learning}{14}
+\contentsline {subsection}{\numberline {4.3.1}Pros and Cons associated with Decision tree}{15}
+\contentsline {chapter}{\numberline {5}Conclusion}{17}
+\contentsline {section}{\numberline {5.1}General Conclusion}{17}
+\contentsline {subsection}{\numberline {5.1.1}This is a sub section}{17}
+\contentsline {section}{\numberline {5.2}Challenges}{17}
+\contentsline {section}{\numberline {5.3}Future Work}{17}
+\contentsline {chapter}{Appendices}{20}
+\contentsline {chapter}{\numberline {A}Appendix}{21}
+\contentsline {chapter}{\numberline {B}Data Sheets}{23}
