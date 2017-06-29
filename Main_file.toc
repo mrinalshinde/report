@@ -4,19 +4,20 @@
 \contentsline {chapter}{\numberline {2}Literature Review}{4}
 \contentsline {section}{\numberline {2.1}Full Body Gait Analysis with Kinect}{4}
 \contentsline {section}{\numberline {2.2}Motion Analysis using Kinect sensor}{6}
-\contentsline {chapter}{\numberline {3}Design/Implementation(whichever applicable)}{8}
-\contentsline {section}{\numberline {3.1}Problem Statement}{8}
-\contentsline {subsection}{\numberline {3.1.1}This is a sub section}{8}
-\contentsline {chapter}{\numberline {4}System Analysis}{10}
-\contentsline {section}{\numberline {4.1}Observations}{10}
-\contentsline {subsection}{\numberline {4.1.1}This is a sub section}{10}
-\contentsline {section}{\numberline {4.2}Results}{10}
-\contentsline {section}{\numberline {4.3}Discussion}{10}
-\contentsline {chapter}{\numberline {5}Conclusion}{11}
-\contentsline {section}{\numberline {5.1}General Conclusion}{11}
-\contentsline {subsection}{\numberline {5.1.1}This is a sub section}{11}
-\contentsline {section}{\numberline {5.2}Challenges}{11}
-\contentsline {section}{\numberline {5.3}Future Work}{11}
-\contentsline {chapter}{Appendices}{14}
-\contentsline {chapter}{\numberline {A}Appendix}{15}
-\contentsline {chapter}{\numberline {B}Data Sheets}{17}
+\contentsline {section}{\numberline {2.3}Gait Recognition with Kinect}{8}
+\contentsline {chapter}{\numberline {3}Design/Implementation(whichever applicable)}{10}
+\contentsline {section}{\numberline {3.1}Problem Statement}{10}
+\contentsline {subsection}{\numberline {3.1.1}This is a sub section}{10}
+\contentsline {chapter}{\numberline {4}System Analysis}{12}
+\contentsline {section}{\numberline {4.1}Observations}{12}
+\contentsline {subsection}{\numberline {4.1.1}This is a sub section}{12}
+\contentsline {section}{\numberline {4.2}Results}{12}
+\contentsline {section}{\numberline {4.3}Discussion}{12}
+\contentsline {chapter}{\numberline {5}Conclusion}{13}
+\contentsline {section}{\numberline {5.1}General Conclusion}{13}
+\contentsline {subsection}{\numberline {5.1.1}This is a sub section}{13}
+\contentsline {section}{\numberline {5.2}Challenges}{13}
+\contentsline {section}{\numberline {5.3}Future Work}{13}
+\contentsline {chapter}{Appendices}{16}
+\contentsline {chapter}{\numberline {A}Appendix}{17}
+\contentsline {chapter}{\numberline {B}Data Sheets}{19}
