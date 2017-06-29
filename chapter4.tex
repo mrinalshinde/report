@@ -4,7 +4,7 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 
 \section{ Support Vector Machine (SVM)} \label{ Support Vector Machine (SVM)}
-\noindent SVMs are supervised learning algorithms used for classification and regression analysis. A support vector machine constructs a hyperplane or set of hyperplanes in a high or infinite dimensional space, which is then used to separate out and classify the data. Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class, since in general the larger the margin the lower the generalization error of the classifier. SVM is able to discriminate data that is not linearly separable by using the kernel trick. \par 
+\noindent SVMs are supervised learning algorithms used for classification and regression analysis. A support vector machine constructs a hyperplane or set of hyperplanes in a high or infinite dimensional space, which is then used to separate out and classify the data. Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class, since in general the larger the margin the lower the generalization error of the classifier. SVM is able to discriminate data that is not linearly separable by using the kernel trick. 
 \noindent The trick stipulates the original finite-dimensional space to be mapped into a much higher-dimensional space, presumably making the separation easier in that space. This is done by selecting a kernel function to suit the problem. The hyperplanes in the higher-dimensional space are defined as the set of points whose dot product with a vector in that space is constant.
 
 \begin{figure}[H]
@@ -16,14 +16,37 @@ We would briefly like to discuss the classification algorithms we have used in o
 
 \subsection{Pros and Cons associated with SVM} \label{Pros and Cons associated with SVM}
 
-The advantages of SVM are it is effective in high dimensional spaces and in cases where number of dimensions is greater than the number of samples. It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient. It is versatile means different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels. \par
+\noindent The advantages of SVM are it is effective in high dimensional spaces and in cases where number of dimensions is greater than the number of samples. It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient. It is versatile means different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels. 
 
-Despite this it doesn’t perform well when we have large data set because the required training time is higher. It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping and SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
-
-
+\noindent Despite this it doesn’t perform well when we have large data set because the required training time is higher. It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping and SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
 
 
-\section{Results} \label{Results}
-This is the second section of the fourth chapter.
-\section{Discussion} \label{Discussion}
-This is the third section of the fourth chapter.
+
+
+\section{k-Nearest Neighbors algorithm (k-NN)} \label{k-Nearest Neighbors algorithm (k-NN)}
+\noindent The k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression. The closest neighbor (NN) rule distinguishes the classification of unknown data point on the basis of its closest neighbor whose class is already known. The value ‘k’ indicates how many nearest neighbors are to be considered to characterize class of a sample data point. It makes utilization of the more than one closest neighbor to determine the class in which the given data point belongs to and consequently it is called as KNN. If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
+
+
+\begin{figure}[H]
+\centering
+{\includegraphics[scale=0.65]{knn.png}}
+\caption{Nearest Neighbours for different values of k}
+\end{figure}
+
+
+\section{Pros and Cons associated with k-NN} \label{Pros and Cons associated with k-NN}
+\noindent The advantages of k-NN are that it is simple to implement. It can quickly respond to changes in input. k-NN employs lazy learning, which generalizes during testing, this allows it to change during real time use. It naturally handles multi-class cases and can do well in practice with enough representative data. 
+
+\noindent Disadvantages of this method is its computation time. Lazy learning requires that most of k-NN's computation be done during testing, rather than during training. This can be an issue for large datasets. Large search problem to find nearest neighbours is another con. Storage of data and in the case of many dimensions, inputs can commonly be "close" to many data points. This reduces the effectiveness of k-NN, since the algorithm relies on a correlation between closeness and similarity.
+
+\section{Decision tree learning} \label{Decision tree learning}
+
+\noindent Decision tree learning uses a decision tree (as a predictive model) to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels and branches represent conjunctions of features that lead to those class labels. To predict a response, follow the decisions in the tree from the root (beginning) node down to a leaf node. The leaf node contains the response.
+
+
+\begin{figure}[H]
+\centering
+{\includegraphics[scale=0.65]{dt.jpg}}
+\caption{Decision tree diagram}
+\end{figure}
+
