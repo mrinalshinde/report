@@ -2,10 +2,14 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Process flow Diagram\relax }}{3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Microsoft Kinect V2 Sensor\relax }}{10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Table specifying differences between Kinect v1 and v2\relax }}{12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Joints Represented by Skeleton Tracking\relax }}{13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces How Kinect Measures Distances\relax }}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Kernel trick representation\relax }}{13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Nearest Neighbours for different values of k\relax }}{14}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Decision tree diagram\relax }}{15}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Kernel trick representation\relax }}{16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Nearest Neighbours for different values of k\relax }}{17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Decision tree diagram\relax }}{18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
