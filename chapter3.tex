@@ -22,20 +22,33 @@
 
 \noindent 5.	The Kinect V2 has a range of 0.5 to 4.5m
 
-
-\begin{figure}[H]
+\newpage
+\begin{table}[h]
 \centering
-{\includegraphics[scale=0.75]{specif.png}}
+\begin{tabular}{ |p{4cm}||p{4cm}|p{4cm}|p{4cm}| }
+ \hline
+ \cellcolor{pink} & \cellcolor{pink} Version 1  &  \cellcolor{pink} Version 2 \\
+ \hline
+Depth Range  & 0.4m to 4m  & 0.5m to 4.5m  \\
+Colour Stream & 640x480@30fps & 1920x1080@30fps \\
+Depth Stream  & 320x240  & 512x424  \\
+Infrared Stream & None & 512x424  \\
+Type Of Light  & Light Coding  & ToF  \\
+Audio Stream & 4-mic array 16khz & 4-mic array 48khz \\
+USB  & 2.0  & 3.0  \\
+Bodies Tracked  & 2(+4) & 6  \\
+Joints & 20 & 25 \\
+Hand Tracking & External Tools  & Yes  \\
+Face Tracking  & Yes  & Yes+Expressions  \\
+FOV & 57$^{\circ}$H 43$^{\circ}$V & 70$^{\circ}$H 60$^{\circ}$V \\
+Tilt  & Motorised  & Manual  \\
+\hline
+\end{tabular}
 \caption{Table specifying differences between Kinect v1 and v2}
-\end{figure}
-
-
+\end{table}
 
 \section{Skeleton Tracking} \label{Skeleton Tracking} 
 \noindent By using the depth stream, the Kinect SDK is able to detect the presence of the person in front of the sensor. Kinect is capable of simultaneously tracking up to six people, including two active individuals for gait analysis with a feature extraction of 25 joints per person. The number of people the device can “see” (but not process as individuals) is only limited by how many will fit in the field-of-view of the camera. For each tracked person, Kinect SDK API provides a “skeleton” as a set of motion data. A skeleton contains 25 position sets, one for each “joint” of the body.
-
-
-
 
 \begin{figure}[H]
 \centering
@@ -44,8 +57,8 @@
 \end{figure}
 
 \section{Measuring Distances Using Kinect } \label{ Measuring Distances Using Kinect}             
-Kinect integrates an infrared sensor, along with a depth processor. The visible area is called “field of view”. The depth processor produces depth frames. Each depth frame is a grid of points. The Kinect SDK is then feeding the depth frames to a powerful body-detection algorithm. The algorithm identifies 25 human body joints and calculates their coordinates in the 3D space. 
-Every single joint has 3 values: X, Y, and Z. It is projected in a Cartesian coordinate system. The  point is the position of the sensor. Every other point is measured in terms of the position of the sensor! Check the graphic below. It’s viewing the sensor and the scene from above.
+\noindent Kinect integrates an infrared sensor, along with a depth processor. The visible area is called “field of view”. The depth processor produces depth frames. Each depth frame is a grid of points. The Kinect SDK is then feeding the depth frames to a powerful body-detection algorithm. The algorithm identifies 25 human body joints and calculates their coordinates in the 3D space. 
+\noindent Every single joint has 3 values: X, Y, and Z. It is projected in a Cartesian coordinate system. The  point is the position of the sensor. Every other point is measured in terms of the position of the sensor! Check the graphic below. It’s viewing the sensor and the scene from above.
 
 •	X is the position in the horizontal axis.
 
@@ -60,7 +73,7 @@ Every single joint has 3 values: X, Y, and Z. It is projected in a Cartesian coo
 \caption{How Kinect Measures Distances}
 \end{figure}
 
-As seen from the figure
+\noindent As seen from the figure
 Z value is not the linear distance between the point and the sensor. Instead, it’s the distance between the point and the plane of the sensor
 
 
