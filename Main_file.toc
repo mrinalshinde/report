@@ -16,11 +16,18 @@
 \contentsline {subsection}{\numberline {4.2.1}Pros and Cons associated with k-NN}{17}
 \contentsline {section}{\numberline {4.3}Decision tree learning}{17}
 \contentsline {subsection}{\numberline {4.3.1}Pros and Cons associated with Decision tree}{19}
-\contentsline {chapter}{\numberline {5}Conclusion}{20}
-\contentsline {section}{\numberline {5.1}General Conclusion}{20}
-\contentsline {subsection}{\numberline {5.1.1}This is a sub section}{20}
-\contentsline {section}{\numberline {5.2}Challenges}{20}
-\contentsline {section}{\numberline {5.3}Future Work}{20}
-\contentsline {chapter}{Appendices}{23}
-\contentsline {chapter}{\numberline {A}Appendix}{24}
-\contentsline {chapter}{\numberline {B}Data Sheets}{26}
+\contentsline {chapter}{\numberline {5}Implementation}{20}
+\contentsline {section}{\numberline {5.1}Tools Used }{20}
+\contentsline {subsection}{\numberline {5.1.1}Microsoft Kinect v2 sensor}{20}
+\contentsline {subsection}{\numberline {5.1.2}Visual Studio 2015 Community Edition }{20}
+\contentsline {subsection}{\numberline {5.1.3}Notepad++ }{21}
+\contentsline {subsection}{\numberline {5.1.4}MATLAB R2015a }{21}
+\contentsline {section}{\numberline {5.2}Gait Features}{21}
+\contentsline {chapter}{\numberline {6}Conclusion}{24}
+\contentsline {section}{\numberline {6.1}General Conclusion}{24}
+\contentsline {subsection}{\numberline {6.1.1}This is a sub section}{24}
+\contentsline {section}{\numberline {6.2}Challenges}{24}
+\contentsline {section}{\numberline {6.3}Future Work}{24}
+\contentsline {chapter}{Appendices}{27}
+\contentsline {chapter}{\numberline {A}Appendix}{28}
+\contentsline {chapter}{\numberline {B}Data Sheets}{30}
