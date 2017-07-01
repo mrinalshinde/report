@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  1 JUL 2017 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  1 JUL 2017 21:41
 entering extended mode
 **./Main_file.tex
 (Main_file.tex
@@ -1127,13 +1127,17 @@ Chapter 5.
 
 
 
-] [21] [22] <exp.png, id=128, 388.45125pt x 292.84406pt>
+] [21] [22] <exp.png, id=128, 379.4175pt x 277.035pt>
 File: exp.png Graphic file (type png)
  <use exp.png>
 Package pdftex.def Info: exp.png used on input line 83.
-(pdftex.def)             Requested size: 291.3377pt x 219.63249pt.
-)
-[23 <./exp.png>]
+(pdftex.def)             Requested size: 284.56242pt x 207.77573pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+
+ []
+
+) [23 <./exp.png>]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
@@ -1175,14 +1179,11 @@ Appendix B.
 AED: lastpage setting LastPage
 (Main_file.aux (Abstract.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (chapter4.aux) (chapter5.aux) (chapter6.aux) (bibliography.aux) (Appendix.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  14788 strings out of 493323
  281891 string characters out of 3139069
- 434111 words of memory out of 3000000
+ 434122 words of memory out of 3000000
  17945 multiletter control sequences out of 15000+200000
  11539 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1194,7 +1195,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on Main_file.pdf (41 pages, 645903 bytes).
+Output written on Main_file.pdf (41 pages, 642045 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
