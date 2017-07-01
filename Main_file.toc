@@ -23,6 +23,7 @@
 \contentsline {subsection}{\numberline {5.1.3}Notepad++ }{21}
 \contentsline {subsection}{\numberline {5.1.4}MATLAB R2015a }{21}
 \contentsline {section}{\numberline {5.2}Gait Features}{21}
+\contentsline {section}{\numberline {5.3}Experimental Set up }{23}
 \contentsline {chapter}{\numberline {6}Conclusion}{24}
 \contentsline {section}{\numberline {6.1}General Conclusion}{24}
 \contentsline {subsection}{\numberline {6.1.1}This is a sub section}{24}
